@@ -6,7 +6,7 @@
     "title": "Haz clic para copiar",
     "copied": "¡Copiado!",
     "shareinfo": "Copia el enlace a esta página o compártelo por <1>correo electrónico</1>.",
-    "shareinfo_alt": "Haga clic en el enlace de arriba para copiarlo en su portapapeles o compartirlo por <1>correo electrónico</1>.",
+    "shareinfo_alt": "Haz clic en el enlace de arriba para copiarlo en tu portapapeles o compártelo por <1>correo electrónico</1>.",
     "email_subject": "Programación de {{event_name}}",
     "email_body": "Visite este enlace para ingresar sus disponibilidades:"
   },
