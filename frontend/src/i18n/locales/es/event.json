@@ -8,7 +8,7 @@
     "shareinfo": "Copia el enlace a esta página o compártelo por <1>correo electrónico</1>.",
     "shareinfo_alt": "Haz clic en el enlace de arriba para copiarlo en tu portapapeles o compártelo por <1>correo electrónico</1>.",
     "email_subject": "Programación de {{event_name}}",
-    "email_body": "Visite este enlace para ingresar sus disponibilidades:"
+    "email_body": "Abre este enlace para ingresar tu disponibilidad:"
   },
   "form": {
     "signed_out": "Inicie sesión para añadir su disponibilidad",
