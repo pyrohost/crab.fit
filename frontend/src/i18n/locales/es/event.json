@@ -29,7 +29,7 @@
     },
 
     "created_in_timezone": "Este evento se creó en la zona horaria <strong>{{timezone}}</strong>. <3>Haz clic aquí</3> para usarla.",
-    "local_timezone": "Se detecta que su zona horaria local es <strong>{{timezone}}</strong>. <3>Haga clic aquí</3> para usarlo."
+    "local_timezone": "Se ha detectado que tu zona horaria local es <strong>{{timezone}}</strong>. <3>Haz clic aquí</3> para usarla."
   },
   "offline": {
     "title": "Estas desconectado",
