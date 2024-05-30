@@ -33,7 +33,7 @@
       }
     },
     "highlight": {
-      "label": "Resalte la mayor disponibilidad",
+      "label": "Resaltar la mayor disponibilidad",
       "title": "Destaque la mayor disponibilidad en el mapa de calor",
       "options": {
         "Off": "Apagado",
