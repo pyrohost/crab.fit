@@ -53,7 +53,7 @@
     },
     "chrome_extension": "Obtenga la extensión de Chrome",
     "firefox_extension": "Obtenga la extensión de Firefox",
-    "safari_extension": "Obtenga la extensión de Safari",
-    "android_app": "Descarga la aplicación de Android"
+    "safari_extension": "Obtenga la extensión para Safari",
+    "android_app": "Descargue la aplicación para Android"
   }
 }
