@@ -13,7 +13,7 @@
     "weekStart": {
       "label": "La semana empieza el",
       "options": {
-        "Sunday": "domingo",
+        "Sunday": "Domingo",
         "Monday": "lunes"
       }
     },
