@@ -1,6 +1,6 @@
 {
   "available": "disponibles",
-  "greyed_times": "Esta área está atenuada porque no es parte del evento. Es posible que esté viendo este evento en una zona horaria diferente de donde se creó.",
+  "greyed_times": "Esta área está atenuada porque no forma parte del evento. Es posible que este se haya creado en una zona horaria distinta a la que has seleccionado.",
 
   "nav": {
     "title": "Haga clic para copiar",
