@@ -47,7 +47,7 @@
   },
 
   "group": {
-    "legend_tooltip": "Haga clic para resaltar la disponibilidad más alta",
+    "legend_tooltip": "Haz clic para resaltar la disponibilidad más elevada",
     "info1": "Pon el ratón encima para ver quien está disponible, y haz clic para copiar los datos de disponibilidad",
     "info2": "Haga clic en los nombres a continuación para ver a las personas individualmente",
     "clipboard_message": "Personas disponibles el {{date}}"
