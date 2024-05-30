@@ -27,8 +27,8 @@
       "sublabel": "Haz clic y arrastra para seleccionar un rango de tiempo"
     },
     "timezone": {
-      "label": "Y la zona horaria",
-      "defaultOption": "Seleccione..."
+      "label": "Zona horaria",
+      "defaultOption": "Selecciona..."
     },
 
     "button": "Crear",
