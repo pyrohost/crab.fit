@@ -65,7 +65,7 @@
     "integration": {
       "logout": "cerrar sesión",
       "close": "cerrar",
-      "info": "La importación sobrescribirá su disponibilidad actual",
+      "info": "El proceso de importación sobrescribirá tu disponibilidad actual",
       "button": "Disponibilidad de importación"
     }
   }
