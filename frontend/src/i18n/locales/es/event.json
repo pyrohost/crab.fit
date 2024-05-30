@@ -28,7 +28,7 @@
       "unknown": "Error al iniciar sesión. Inténtalo de nuevo."
     },
 
-    "created_in_timezone": "Este evento se creó en la zona horaria <strong>{{timezone}}</strong>. <3>Haga clic aquí</3> para usarlo.",
+    "created_in_timezone": "Este evento se creó en la zona horaria <strong>{{timezone}}</strong>. <3>Haz clic aquí</3> para usarla.",
     "local_timezone": "Se detecta que su zona horaria local es <strong>{{timezone}}</strong>. <3>Haga clic aquí</3> para usarlo."
   },
   "offline": {
