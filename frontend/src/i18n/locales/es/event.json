@@ -56,7 +56,7 @@
   "you": {
     "info": "Haz clic y arrastra el calendario a continuación para configurar tu disponibilidad",
     "select_all": "Seleccionar todo",
-    "select_none": "Seleccionar ninguno",
+    "select_none": "Deseleccionar todo",
     "select_invert": "Invertir selección",
 
     "google_cal": "Sincronizar con Google Calendar",
