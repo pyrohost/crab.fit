@@ -8,7 +8,7 @@
     },
     "dates": {
       "label": "¿Qué rango de fechas es adecuado?",
-      "sublabel": "Haga clic y arrastre para seleccionar",
+      "sublabel": "Haz clic y arrastra para seleccionar",
       "options": {
         "specific": "Fechas específicas",
         "week": "Días de la semana"
