@@ -45,7 +45,7 @@
     "events": "Eventos creados",
     "availabilities": "Disponibilidades ingresadas",
     "content": {
-      "p1": "Crab Fit le ayuda a adaptar su evento a los horarios de todos sus participantes. Simplemente cree un evento arriba y comparta el enlace. Los resultados se actualizan en vivo y podrá ver un mapa de calor de cuándo todos están libres.<1/><2>Obtenga más información sobre cómo usar Crab Fit.</2>",
+      "p1": "Crab Fit te ayuda a adaptar tu evento a los horarios de todos los participantes. Simplemente crea un evento arriba y comparte el enlace. Los resultados se actualizan en vivo y podrás ver un mapa de calor la disponibilidad de todos.<1/><2>Obtenga más información sobre cómo usar Crab Fit.</2>",
       "p3": "Creado por <1>Ben Grant</1>, Crab Fit es la solución moderna para sus debates de planificación de eventos grupales.",
       "p4": "Crab Fit es de código abierto, si encuentra algún problema o desea contribuir, puede visitar el <1>repositorio</1>. Al utilizar Crab Fit, acepta la <3>política de privacidad</3>.",
       "p6": "Para proteger su privacidad, los eventos se eliminan después de 3 meses de inactividad y todas las contraseñas tienen un cifrado seguro.",
