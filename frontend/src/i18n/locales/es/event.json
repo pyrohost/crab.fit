@@ -11,7 +11,7 @@
     "email_body": "Visite este enlace para ingresar sus disponibilidades:"
   },
   "form": {
-    "signed_out": "Inicia sesión para añadir su disponibilidad",
+    "signed_out": "Inicie sesión para añadir su disponibilidad",
     "signed_in": "Ha iniciado sesión como {{name}}",
 
     "name": "Su nombre",
