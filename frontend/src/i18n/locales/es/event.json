@@ -32,7 +32,7 @@
     "local_timezone": "Se ha detectado que tu zona horaria local es <strong>{{timezone}}</strong>. <3>Haz clic aquí</3> para usarla."
   },
   "offline": {
-    "title": "Estas desconectado",
+    "title": "Estás desconectado",
     "body": "Un Crab Fit no funciona sin conexión.<br />Asegúrate de estar conectado a Internet y vuelve a intentarlo."
   },
   "error": {
