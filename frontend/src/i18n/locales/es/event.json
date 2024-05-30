@@ -12,9 +12,9 @@
   },
   "form": {
     "signed_out": "Inicia sesión para añadir su disponibilidad",
-    "signed_in": "Has iniciado sesión como {{name}}",
+    "signed_in": "Ha iniciado sesión como {{name}}",
 
-    "name": "Tu nombre",
+    "name": "Su nombre",
     "password": "Contraseña (opcional)",
     "button": "Iniciar sesión",
     "logout_button": "Desconectar",
