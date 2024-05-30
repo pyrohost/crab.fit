@@ -1,6 +1,6 @@
 {
   "create": "CREA UN",
-  "recently_visited": "Recientemente visitado",
+  "recently_visited": "Visitados recientemente",
   "form": {
     "name": {
       "label": "¡Dale un nombre a tu evento!",
