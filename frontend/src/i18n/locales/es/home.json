@@ -23,7 +23,7 @@
       }
     },
     "times": {
-      "label": "¿A qué horas podría funcionar?",
+      "label": "¿Qué horas son apropiadas para el evento?",
       "sublabel": "Haga clic y arrastre para seleccionar un rango de tiempo"
     },
     "timezone": {
