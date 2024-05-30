@@ -24,7 +24,7 @@
     },
     "times": {
       "label": "¿Qué horas son apropiadas para el evento?",
-      "sublabel": "Haga clic y arrastre para seleccionar un rango de tiempo"
+      "sublabel": "Haz clic y arrastra para seleccionar un rango de tiempo"
     },
     "timezone": {
       "label": "Y la zona horaria",
