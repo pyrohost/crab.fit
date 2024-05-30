@@ -4,7 +4,7 @@
   "form": {
     "name": {
       "label": "¡Dale un nombre a tu evento!",
-      "sublabel": "O dejar en blanco para generar uno"
+      "sublabel": "O dejadlo en blanco para generar uno"
     },
     "dates": {
       "label": "¿Qué fechas podrían funcionar?",
