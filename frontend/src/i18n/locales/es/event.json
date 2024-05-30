@@ -54,7 +54,7 @@
   },
 
   "you": {
-    "info": "Haga clic y arrastre el calendario a continuación para configurar sus disponibilidades",
+    "info": "Haz clic y arrastra el calendario a continuación para configurar tu disponibilidad",
     "select_all": "Seleccionar todo",
     "select_none": "Seleccionar ninguno",
     "select_invert": "Invertir selección",
