@@ -23,7 +23,7 @@
     "timezone": "Tu zona horaria",
 
     "errors": {
-      "name_required": "Su nombre es necesario para almacenar su disponibilidad.",
+      "name_required": "Tu nombre es necesario para almacenar tu disponibilidad.",
       "password_incorrect": "La contraseña es incorrecta. Compruebe que su nombre esté bien escrito.",
       "unknown": "Error al iniciar sesión. Inténtalo de nuevo."
     },
