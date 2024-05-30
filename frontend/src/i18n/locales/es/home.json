@@ -7,7 +7,7 @@
       "sublabel": "O déjalo en blanco para generar uno aleatorio"
     },
     "dates": {
-      "label": "¿Qué fechas podrían funcionar?",
+      "label": "¿Qué rango de fechas es adecuado?",
       "sublabel": "Haga clic y arrastre para seleccionar",
       "options": {
         "specific": "Fechas específicas",
