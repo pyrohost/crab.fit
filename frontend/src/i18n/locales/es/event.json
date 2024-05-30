@@ -14,7 +14,7 @@
     "signed_out": "Inicia sesión para añadir tu disponibilidad",
     "signed_in": "Has iniciado sesión como {{name}}",
 
-    "name": "Su nombre",
+    "name": "Tu nombre",
     "password": "Contraseña (opcional)",
     "button": "Iniciar sesión",
     "logout_button": "Cerrar sesión",
