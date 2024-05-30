@@ -34,7 +34,7 @@
     "button": "Crear",
     "errors": {
       "no_dates": "No hay fechas seleccionadas",
-      "same_times": "Las horas de inicio y finalización no pueden ser las mismas",
+      "same_times": "La hora de inicio y finalización no puede ser la misma",
       "no_time": "No hay ningún tiempo seleccionado",
       "unknown": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
     }
