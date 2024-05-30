@@ -5,7 +5,7 @@
   "nav": {
     "title": "Haz clic para copiar",
     "copied": "¡Copiado!",
-    "shareinfo": "Copie el enlace a esta página o compártalo por <1>correo electrónico</1>.",
+    "shareinfo": "Copia el enlace a esta página o compártelo por <1>correo electrónico</1>.",
     "shareinfo_alt": "Haga clic en el enlace de arriba para copiarlo en su portapapeles o compartirlo por <1>correo electrónico</1>.",
     "email_subject": "Programación de {{event_name}}",
     "email_body": "Visite este enlace para ingresar sus disponibilidades:"
