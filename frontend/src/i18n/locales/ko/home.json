@@ -31,7 +31,7 @@
       "defaultOption": "고르다..."
     },
 
-    "button": "창조하다",
+    "button": "만들기",
     "errors": {
       "no_dates": "선택한 모든 날짜가 없습니다",
       "same_times": "시작 시간과 종료 시간은 같을 수 없습니다",
