@@ -4,10 +4,10 @@
   "form": {
     "name": {
       "label": "이벤트 이름을 지정하세요!",
-      "sublabel": "또는 공백으로 두어 생성하십시오"
+      "sublabel": "또는 공백으로 두어 랜덤으로 생성"
     },
     "dates": {
-      "label": "어떤 날짜를 작동 할 수 있습니다?",
+      "label": "어떤 날자를 선택하시겠습니까?",
       "sublabel": "클릭하고 드래그하여 선택",
       "options": {
         "specific": "특정 날짜",
@@ -17,6 +17,9 @@
         "previous": "지난 달",
         "next": "다음 달",
         "today": "오늘"
+      },
+      "warnings": {
+        "date_in_past": "선택된 날짜 중 일부는 과거입니다."
       }
     },
     "times": {
