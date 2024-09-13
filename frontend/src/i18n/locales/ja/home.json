@@ -17,6 +17,9 @@
         "previous": "先月",
         "next": "来月",
         "today": "今日"
+      },
+      "warnings": {
+        "date_in_past": "選択した日付に過去の日付が含まれています"
       }
     },
     "times": {
