@@ -32,6 +32,8 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
     "@types/gapi": "^0.0.47",
     "@types/gapi.calendar": "^3.0.11",
     "@types/google.accounts": "^0.0.15",
@@ -42,6 +44,7 @@
     "@typescript-eslint/parser": "^8.26.1",
     "eslint": "^9.22.0",
     "eslint-config-next": "^15.2.2",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "sass": "^1.85.1",
     "typescript": "^5.8.2",
