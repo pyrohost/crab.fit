@@ -34,10 +34,10 @@ const Button: React.FC<ButtonProps> = ({
   const sharedProps = {
     className: makeClass(
       styles.button,
-      isSecondary && styles.secondary,
-      isSmall && styles.small,
-      isLoading && styles.loading,
-      !children && icon && styles.iconButton
+      isSecondary ? styles.secondary : false,
+      isSmall ? styles.small : false,
+      isLoading ? styles.loading : false,
+      (!children && icon) ? styles.iconButton : false
     ),
     style: {
       ...(surfaceColor && {
