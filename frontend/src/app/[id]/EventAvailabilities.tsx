@@ -150,14 +150,17 @@ const EventAvailabilities = ({ event }: EventAvailabilitiesProps) => {
               Intl.DateTimeFormat().resolvedOptions().timeZone !==
                 timezone)) && (
             <p>
-              <Trans i18nKey="form.local_timezone" t={t} i18n={i18n}>
+              <Trans
+                i18nKey="form.local_timezone"
+                t={t}
+                i18n={i18n}
+                values={{
+                  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                }}
+              >
                 {/* eslint-disable-next-line */}
                 {/* @ts-ignore */}_
-                <strong>
-                  {{
-                    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-                  }}
-                </strong>
+                <strong>{{ timezone }}</strong>
                 _
                 <a
                   href="#"
