@@ -1,26 +1,26 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-import { makeClass } from '/src/utils'
+import { makeClass } from "/src/utils";
 
-import styles from './Button.module.scss'
+import styles from "./Button.module.scss";
 
 type ButtonProps = {
   /** If provided, will render a link that looks like a button */
-  href?: string
-  icon?: React.ReactNode
-  children?: React.ReactNode
-  isSecondary?: boolean
-  isSmall?: boolean
-  isLoading?: boolean
+  href?: string;
+  icon?: React.ReactNode;
+  children?: React.ReactNode;
+  isSecondary?: boolean;
+  isSmall?: boolean;
+  isLoading?: boolean;
   /** Override the surface color of the button. Will force the text to #FFFFFF. */
-  surfaceColor?: string
+  surfaceColor?: string;
   /** Override the shadow color of the button */
-  shadowColor?: string
-} & Omit<React.ComponentProps<'button'> & React.ComponentProps<'a'>, 'ref'>
+  shadowColor?: string;
+} & Omit<React.ComponentProps<"button"> & React.ComponentProps<"a">, "ref">;
 
 const Button: React.FC<ButtonProps> = ({
   href,
-  type = 'button',
+  type = "button",
   icon,
   children,
   isSecondary,
@@ -37,20 +37,30 @@ const Button: React.FC<ButtonProps> = ({
       isSecondary && styles.secondary,
       isSmall && styles.small,
       isLoading && styles.loading,
-      !children && icon && styles.iconButton,
+      !children && icon && styles.iconButton
     ),
     style: {
-      ...surfaceColor && { '--override-surface-color': surfaceColor, '--override-text-color': '#FFFFFF' },
-      ...shadowColor && { '--override-shadow-color': shadowColor },
+      ...(surfaceColor && {
+        "--override-surface-color": surfaceColor,
+        "--override-text-color": "#FFFFFF",
+      }),
+      ...(shadowColor && { "--override-shadow-color": shadowColor }),
       ...style,
     },
-    children: <div>{icon}{children}</div>,
+    children: (
+      <div>
+        {icon}
+        {children}
+      </div>
+    ),
     ...props,
-  }
+  };
 
-  return href
-    ? <Link href={href} {...sharedProps} />
-    : <button type={type} {...sharedProps} />
-}
+  return href ? (
+    <Link href={href} {...sharedProps} />
+  ) : (
+    <button type={type} {...sharedProps} />
+  );
+};
 
-export default Button
+export default Button;

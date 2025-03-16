@@ -1,5 +1,5 @@
-import { calculateTable, CalculateTableArgs } from '/src/utils'
+import { calculateTable, CalculateTableArgs } from "/src/utils";
 
 self.onmessage = (e: MessageEvent<CalculateTableArgs>) => {
-  self.postMessage(calculateTable(e.data))
-}
+  self.postMessage(calculateTable(e.data));
+};

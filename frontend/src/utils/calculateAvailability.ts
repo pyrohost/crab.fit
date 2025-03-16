@@ -1,20 +1,20 @@
 interface Person {
-  name: string
-  availability: string[]
+  name: string;
+  availability: string[];
 }
 
 interface Availability {
-  date: string
+  date: string;
   /** Names of everyone who is available at this date */
-  people: string[]
+  people: string[];
 }
 
 interface AvailabilityInfo {
-  availabilities: Availability[]
+  availabilities: Availability[];
   /** The amount of people available in the date with lowest availability */
-  min: number
+  min: number;
   /** The amount of people available in the date with highest availability */
-  max: number
+  max: number;
 }
 
 /**
@@ -22,20 +22,25 @@ interface AvailabilityInfo {
  * where each person has a name and availability array, and returns the
  * group availability for each date passed in.
  */
-export const calculateAvailability = (dates: string[], people: Person[]): AvailabilityInfo => {
-  let min = 0
-  let max = people.length
+export const calculateAvailability = (
+  dates: string[],
+  people: Person[]
+): AvailabilityInfo => {
+  let min = 0;
+  let max = people.length;
 
-  const availabilities: Availability[] = dates.map(date => {
-    const names = people.flatMap(p => p.availability.some(d => d === date) ? [p.name] : [])
+  const availabilities: Availability[] = dates.map((date) => {
+    const names = people.flatMap((p) =>
+      p.availability.some((d) => d === date) ? [p.name] : []
+    );
     if (names.length < min) {
-      min = names.length
+      min = names.length;
     }
     if (names.length > max) {
-      max = names.length
+      max = names.length;
     }
-    return { date, people: names }
-  })
+    return { date, people: names };
+  });
 
-  return { availabilities, min, max }
-}
+  return { availabilities, min, max };
+};
