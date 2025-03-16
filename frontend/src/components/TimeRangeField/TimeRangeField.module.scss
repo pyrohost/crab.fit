@@ -1,7 +1,8 @@
 .range {
   user-select: none;
   background-color: var(--surface);
-  border: 1px solid var(--primary);
+  // border: 1px solid var(--primary);
+  border: none;
   border-radius: 3px;
   height: 50px;
   position: relative;
@@ -18,14 +19,14 @@
   top: -10px;
   cursor: ew-resize;
   touch-action: none;
-  transition: left .1s;
+  transition: left 0.1s;
 
   @media (prefers-reduced-motion: reduce) {
     transition: none;
   }
 
   &:after {
-    content: '|||';
+    content: "|||";
     font-size: 8px;
     position: absolute;
     top: 0;
@@ -61,7 +62,7 @@
   top: 0;
   background-color: var(--primary);
   border-radius: 2px;
-  transition: left .1s, right .1s;
+  transition: left 0.1s, right 0.1s;
 
   @media (prefers-reduced-motion: reduce) {
     transition: none;
